@@ -1,9 +1,11 @@
 <html>
   <head>
     <script src="https://aframe.io/releases/1.2.0/aframe.min.js"></script>
+    <script src="//cdn.rawgit.com/donmccurdy/aframe-extras/v4.1.1/dist/aframe-extras.min.js"></script>
   </head>
   <body>
     <a-scene>
+
       <a-assets>
           <img id="first1" src="group1/first1.jpg">
           <img id="first2" src="group1/first2.jpg">
@@ -28,7 +30,13 @@
           <img id="third5" src="group3/third5.jpg">
           <img id="third6" src="group3/third6.jpg">
           <img id="third7" src="group3/third7.jpg">
+          <img id="fourth1" src="group4/fourth1.jpg">
+          <img id="fourth2" src="group4/fourth2.jpg">
+          <img id="fourth3" src="group4/fourth3.jpg">
+          <img id="fourth4" src="group4/fourth4.jpg">
       </a-assets>
+      <a-entity camera look-controls wasd-controls="acceleration:100; fly:true" position="0 1.6 0"></a-entity>
+
       <a-sky color="#ECECEC"></a-sky>
 
 
@@ -86,6 +94,39 @@
       <a-entity position="-2.0177 2.47 0.24984" geometry="depth: 4; height: 5; width: 0"></a-entity>
       <a-entity position="-2.0177 2.47 -5.6646" geometry="depth: 4; height: 5; width: 0"></a-entity>
       <a-entity position="-2.0177 3.94819 -2.75114" geometry="depth: 2; height: 2; width: 0"></a-entity>
+      <a-entity position="8.01901 2.48024 0.24212" geometry="depth: 4; height: 5; width: 0"></a-entity>
+      <a-entity position="8.05569 2.47 -5.67737" geometry="depth: 4; height: 5; width: 0"></a-entity>
+      <a-entity position="8.03549 3.94819 -2.75114" geometry="depth: 2; height: 2; width: 0"></a-entity>
+
+      <a-box position="3.002 0 7.222" width="10" height="0" depth="10" material="" geometry=""></a-box>
+      <a-box position="3.002 4.92624 7.22863" width="10" height="0" depth="10" material="" geometry=""></a-box>
+      <a-box position="3.002 0 16.99051" width="10" height="0" depth="10" material="" geometry=""></a-box>
+      <a-box position="3.002 4.92624 17.18898" width="10" height="0" depth="10" material="" geometry=""></a-box>
+      <a-entity position="8.01901 2.48024 4.22697" geometry="depth: 4; height: 5; width: 0"></a-entity>
+      <a-entity position="8.01901 2.48024 8.22159" geometry="depth: 4; height: 5; width: 0"></a-entity>
+      <a-entity position="8.01901 2.48024 12.17643" geometry="depth: 4; height: 5; width: 0"></a-entity>
+      <a-entity position="8.01901 2.48024 16.1686" geometry="depth: 4; height: 5; width: 0"></a-entity>
+      <a-entity position="8.01901 2.48024 20.12686" geometry="depth: 4; height: 5; width: 0"></a-entity>
+
+      <a-entity position="-1.989 2.48024 4.22697" geometry="depth: 4; height: 5; width: 0"></a-entity>
+      <a-entity position="-1.989 2.48024 8.22159" geometry="depth: 4; height: 5; width: 0"></a-entity>
+      <a-entity position="-1.989 2.48024 12.17643" geometry="depth: 4; height: 5; width: 0"></a-entity>
+      <a-entity position="-1.989 2.48024 16.1686" geometry="depth: 4; height: 5; width: 0"></a-entity>
+      <a-entity position="-1.989 2.48024 20.12686" geometry="depth: 4; height: 5; width: 0"></a-entity>
+
+      <a-image position="7.98631 2.433 4.18431" rotation="0 90 0" geometry="height: 3; width: 3" src="#fourth1" material=""></a-image>
+      <a-image position="7.98631 2.433 8.20511" rotation="0 90 0" geometry="height: 3; width: 3" src="#fourth2" material=""></a-image>
+      <a-image position="-1.972 2.433 4.18431" rotation="0 90 0" geometry="height: 3; width: 3" src="#fourth3" material=""></a-image>
+      <a-image position="-1.972 2.433 8.20511" rotation="0 90 0" geometry="height: 3; width: 3" src="#fourth4" material=""></a-image>
+
+      <a-image position="2.59094 2.23266 37.5609" geometry="height: 5; width: 5" src="#second2" material=""></a-image>
+      <a-image position="2.56226 4.72145 35.04328" rotation="90 0 0" geometry="height: 5; width: 5" src="#second2" material=""></a-image>
+      <a-image position="2.62568 2.23266 32.52832" geometry="height: 5; width: 5" src="#second2" material=""></a-image>
+      <a-image position="2.56226 -0.25195 35.04328" rotation="90 0 0" geometry="height: 5; width: 5" src="#second2" material=""></a-image>
+
+
+
+
     </a-scene>
   </body>
 </html>
